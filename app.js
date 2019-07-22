@@ -15,70 +15,413 @@ const MONTHS = [
 
 const BIRTHDAYS = {
   '1': {
-    '5': ['Nick'],
-    '7': ['Nicolas'],
-    '12': ['Zayn'],
-    '30': ['Mason'],
+    '1': [],
+    '2': [],
+    '3': [],
+    '4': [],
+    '5': ['Anna'],
+    '6': [],
+    '7': [],
+    '8': [],
+    '9': [],
+    '10': [],
+    '11': ['Sam'],
+    '12': [],
+    '13': [],
+    '14': [],
+    '15': [],
+    '16': [],
+    '17': [],
+    '18': [],
+    '19': [],
+    '20': [],
+    '21': [],
+    '22': [],
+    '23': [],
+    '24': [],
+    '25': [],
+    '26': [],
+    '27': [],
+    '28': [],
+    '29': [],
+    '30': [],
+    '31': []
   },
   '2': {
-    '1': ['Harry'],
+    '1': [],
+    '2': [],
+    '3': [],
+    '4': [],
+    '5': [],
+    '6': [],
+    '7': [],
+    '8': [],
+    '9': [],
+    '10': [],
+    '11': [],
+    '12': [],
+    '13': [],
+    '14': [],
+    '15': [],
+    '16': [],
+    '17': [],
+    '18': [],
+    '19': [],
+    '20': [],
+    '21': [],
+    '22': [],
+    '23': [],
+    '24': [],
+    '25': [],
+    '26': [],
+    '27': [],
+    '28': []
   },
   '3': {
-    '8': ['DoHyun']
+    '1': [],
+    '2': [],
+    '3': [],
+    '4': [],
+    '5': [],
+    '6': [],
+    '7': [],
+    '8': [],
+    '9': [],
+    '10': [],
+    '11': [],
+    '12': [],
+    '13': [],
+    '14': [],
+    '15': [],
+    '16': [],
+    '17': [],
+    '18': [],
+    '19': [],
+    '20': [],
+    '21': [],
+    '22': [],
+    '23': [],
+    '24': [],
+    '25': [],
+    '26': [],
+    '27': [],
+    '28': [],
+    '29': [],
+    '30': [],
+    '31': []
   },
   '4': {
-    '7': ['Nathan'],
+    '1': [],
+    '2': [],
+    '3': [],
+    '4': [],
+    '5': [],
+    '6': [],
+    '7': [],
+    '8': [],
+    '9': [],
+    '10': [],
+    '11': [],
+    '12': [],
+    '13': [],
+    '14': [],
+    '15': [],
+    '16': [],
+    '17': [],
+    '18': [],
+    '19': [],
+    '20': [],
+    '21': [],
+    '22': [],
+    '23': [],
+    '24': [],
+    '25': [],
+    '26': [],
+    '27': [],
+    '28': [],
+    '29': [],
+    '30': []
   },
   '5': {
-    '31': ['Hayk', 'Sammy'],
+    '1': [],
+    '2': [],
+    '3': [],
+    '4': [],
+    '5': [],
+    '6': [],
+    '7': [],
+    '8': [],
+    '9': [],
+    '10': [],
+    '11': [],
+    '12': [],
+    '13': [],
+    '14': [],
+    '15': [],
+    '16': [],
+    '17': [],
+    '18': [],
+    '19': [],
+    '20': [],
+    '21': [],
+    '22': [],
+    '23': [],
+    '24': [],
+    '25': [],
+    '26': [],
+    '27': [],
+    '28': [],
+    '29': [],
+    '30': [],
+    '31': []
   },
   '6': {
-    '7': ['Kendall']
-    '11': ['Daniel'],
-    '21': ['EllenMelon'],
-    '28': ['Ben'],
-    '30': ['Natalie'],
+    '1': [],
+    '2': [],
+    '3': [],
+    '4': [],
+    '5': [],
+    '6': [],
+    '7': [],
+    '8': [],
+    '9': [],
+    '10': [],
+    '11': [],
+    '12': [],
+    '13': [],
+    '14': [],
+    '15': [],
+    '16': [],
+    '17': [],
+    '18': [],
+    '19': [],
+    '20': [],
+    '21': [],
+    '22': [],
+    '23': [],
+    '24': [],
+    '25': [],
+    '26': [],
+    '27': [],
+    '28': [],
+    '29': [],
+    '30': []
   },
   '7': {
-    '16': ['Elly']
+    '1': [],
+    '2': [],
+    '3': [],
+    '4': [],
+    '5': [],
+    '6': [],
+    '7': [],
+    '8': [],
+    '9': [],
+    '10': [],
+    '11': [],
+    '12': [],
+    '13': [],
+    '14': [],
+    '15': [],
+    '16': [],
+    '17': [],
+    '18': [],
+    '19': [],
+    '20': [],
+    '21': [],
+    '22': [],
+    '23': [],
+    '24': [],
+    '25': [],
+    '26': [],
+    '27': [],
+    '28': [],
+    '29': [],
+    '30': [],
+    '31': []
   },
   '8': {
-    '1': ['Ray'],
-    '11': ['Pablo'],
-    '29': ['Liam']
+    '1': [],
+    '2': [],
+    '3': [],
+    '4': [],
+    '5': [],
+    '6': [],
+    '7': [],
+    '8': [],
+    '9': [],
+    '10': [],
+    '11': [],
+    '12': [],
+    '13': [],
+    '14': [],
+    '15': [],
+    '16': [],
+    '17': [],
+    '18': [],
+    '19': [],
+    '20': [],
+    '21': [],
+    '22': [],
+    '23': [],
+    '24': [],
+    '25': [],
+    '26': [],
+    '27': [],
+    '28': [],
+    '29': [],
+    '30': [],
+    '31': []
   },
   '9': {
-    '13': ['Niall'],
+    '1': [],
+    '2': [],
+    '3': [],
+    '4': [],
+    '5': [],
+    '6': [],
+    '7': [],
+    '8': [],
+    '9': [],
+    '10': [],
+    '11': [],
+    '12': [],
+    '13': [],
+    '14': [],
+    '15': [],
+    '16': [],
+    '17': [],
+    '18': [],
+    '19': [],
+    '20': [],
+    '21': [],
+    '22': [],
+    '23': [],
+    '24': [],
+    '25': [],
+    '26': [],
+    '27': [],
+    '28': [],
+    '29': [],
+    '30': []
   },
   '10': {
-    '21': ['Sam', 'Virginia']
+    '1': [],
+    '2': [],
+    '3': [],
+    '4': [],
+    '5': [],
+    '6': [],
+    '7': [],
+    '8': [],
+    '9': [],
+    '10': [],
+    '11': [],
+    '12': [],
+    '13': [],
+    '14': [],
+    '15': [],
+    '16': [],
+    '17': [],
+    '18': [],
+    '19': [],
+    '20': [],
+    '21': [],
+    '22': [],
+    '23': [],
+    '24': [],
+    '25': [],
+    '26': [],
+    '27': [],
+    '28': [],
+    '29': [],
+    '30': [],
+    '31': []
   },
   '11': {
-  	'6': ['Aprotim'],
-    '25': ['Cinthya'],
+    '1': [],
+    '2': [],
+    '3': [],
+    '4': [],
+    '5': [],
+    '6': [],
+    '7': [],
+    '8': [],
+    '9': [],
+    '10': [],
+    '11': [],
+    '12': [],
+    '13': [],
+    '14': [],
+    '15': [],
+    '16': [],
+    '17': [],
+    '18': [],
+    '19': [],
+    '20': [],
+    '21': [],
+    '22': [],
+    '23': [],
+    '24': [],
+    '25': [],
+    '26': [],
+    '27': [],
+    '28': [],
+    '29': [],
+    '30': []
   },
   '12': {
-    '3': ['Olimpia'],
-    '9': ['Trish'],
-    '14': ['Jaida Day Yay']
-    '18': ['Kristina'],
-    '24': ['Louis'],
+    '1': [],
+    '2': [],
+    '3': [],
+    '4': [],
+    '5': [],
+    '6': [],
+    '7': [],
+    '8': [],
+    '9': [],
+    '10': [],
+    '11': [],
+    '12': [],
+    '13': [],
+    '14': [],
+    '15': [],
+    '16': [],
+    '17': [],
+    '18': [],
+    '19': [],
+    '20': [],
+    '21': [],
+    '22': [],
+    '23': [],
+    '24': [],
+    '25': [],
+    '26': [],
+    '27': [],
+    '28': [],
+    '29': [],
+    '30': [],
+    '31': []
   }
 };
 
 const AUDIO_URLS = [
-  'https://sound.peal.io/ps/audios/000/000/430/original/liljon_3.mp3',
-  'https://sound.peal.io/ps/audios/000/000/429/original/liljon_2.mp3',
-  'https://sound.peal.io/ps/audios/000/000/431/original/liljon_8.mp3',
-  'https://sound.peal.io/ps/audios/000/002/812/original/Okay!.wav',
-  'https://sound.peal.io/ps/audios/000/002/811/original/What!.wav',
-  'https://sound.peal.io/ps/audios/000/002/810/original/Yeah!.wav'
+  './audio/happenin.mp3',
+  './audio/okay.wav',
+  './audio/what.mp3',
+  './audio/what2.wav',
+  './audio/yeah.mp3',
+  './audio/yeah2.wav'
 ];
 
-const INCREMENT_MS = 500;
+const BIRTHDAY_INTERVAL_MS = 800;
+const NON_BIRTHDAY_INTERVAL_MS = 200;
 
-const SERIOUS_JON_URL = 'http://media.hotbirthdays.com/files/1971/01/17/lil-jon-3.jpg';
-const BIRTHDAY_JON_URL = 'https://images.sk-static.com/images/media/profile_images/artists/370337/huge_avatar';
+const SERIOUS_JON_URL = './images/lj-serious.jpg';
+
+function getRandom(arr) {
+  return arr[Math.floor(Math.random() * arr.length)];
+}
 
 function App(monthEl, dayEl, msgEl, imgEl) {
   this.monthEl = monthEl;
@@ -86,12 +429,25 @@ function App(monthEl, dayEl, msgEl, imgEl) {
   this.msgEl = msgEl;
   this.imgEl = imgEl;
   this.currentMonthIdx = 0;
-  this.currentDay = 1;
+  this.currentDay = 0;
   this.audios = [];
+  this.isRunning = false;
   AUDIO_URLS.forEach((url) => {
-    this.audios.push(new Audio(url))
+    this.audios.push(new Audio(url));
   });
+  this.imageContainer = document.getElementById('img-container');
+  this.seriousJon = document.getElementById('serious-jon');
+  this.birthdayImages = [];
+  this.setUpImages();
 }
+
+App.prototype.setUpImages = function setUpImages() {
+  for (let i = 1; i <= 5; i++) {
+    const birthdayImage = new Image(400, 400);
+    birthdayImage.src = `./images/lj${i}.jpg`;
+    this.birthdayImages.push(birthdayImage);
+  }
+};
 
 App.prototype.updateText = function updateText() {
   this.monthEl.innerHTML = MONTHS[this.currentMonthIdx][0];
@@ -112,33 +468,47 @@ App.prototype.incrementDay = function incrementDay() {
 App.prototype.checkBirthdays = function checkBirthdays() {
   const birthdayPeople = BIRTHDAYS[String(this.currentMonthIdx + 1)][String(this.currentDay)] || [];
   if (birthdayPeople.length < 1) {
-    this.imgEl.src = SERIOUS_JON_URL;
+    this.imageContainer.appendChild(this.seriousJon);
     this.msgEl.innerHTML = 'Just another day...';
-    return;
+    return false;
   }
 
   const newMsg = "Happy birthday " + birthdayPeople.join(' and ') + '!!!';
   this.msgEl.innerHTML = newMsg;
-  this.imgEl.src = BIRTHDAY_JON_URL;
+  const birthdayJon = getRandom(this.birthdayImages);
+  this.imageContainer.appendChild(birthdayJon);
+
   this.sayHappyBirthday();
+  return true;
 };
 
 App.prototype.sayHappyBirthday = function sayHappyBirthday() {
-  const audio = this.audios[Math.floor(Math.random() * this.audios.length)];
+  const audio = getRandom(this.audios);
   audio.play();
 };
 
 App.prototype.step = function step() {
+  if (!this.isRunning) {
+    return;
+  }
+  while (this.imageContainer.firstChild) {
+    this.imageContainer.removeChild(this.imageContainer.firstChild);
+  }
   this.incrementDay();
   this.updateText();
-  this.checkBirthdays();
+  const wasBirthday = this.checkBirthdays();
+  const interval = wasBirthday ? BIRTHDAY_INTERVAL_MS : NON_BIRTHDAY_INTERVAL_MS;
+  setTimeout(() => this.step(), interval);
 };
 
 App.prototype.run = function run() {
-  this.updateText();
-  this.intervalId = setInterval(this.step.bind(this), INCREMENT_MS);
+  if (this.isRunning) {
+    return;
+  }
+  this.isRunning = true;
+  this.step();
 };
 
 App.prototype.stop = function stop() {
-  clearInterval(this.intervalId);
+  this.isRunning = false;
 };
