@@ -414,8 +414,8 @@ const AUDIO_URLS = [
   './audio/yeah2.wav'
 ];
 
-const BIRTHDAY_INTERVAL_MS = 800;
-const NON_BIRTHDAY_INTERVAL_MS = 200;
+const BIRTHDAY_INTERVAL_MS = 500;
+const NON_BIRTHDAY_INTERVAL_MS = 50;
 
 const SERIOUS_JON_URL = './images/lj-serious.jpg';
 
@@ -460,7 +460,7 @@ App.prototype.incrementDay = function incrementDay() {
   if (this.currentDay + 1 <= currentMaxDay) {
     this.currentDay += 1;
   } else {
-    this.currentMonthIdx = (this.currentMonthIdx + 1) % 11;
+    this.currentMonthIdx = (this.currentMonthIdx + 1) % 12;
     this.currentDay = 1;
   }
 };
