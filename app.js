@@ -54,7 +54,7 @@ const BIRTHDAYS = {
     '4': [],
     '5': ['Felianne Teng'],
     '6': [],
-    '7': ['Kiana Florendo'],
+    '7': ['Linda Garcia', 'Kiana Florendo'],
     '8': [],
     '9': [],
     '10': [],
