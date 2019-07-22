@@ -161,7 +161,7 @@ const BIRTHDAYS = {
     '16': [],
     '17': ['The GOAT himself, Brent'],
     '18': [],
-    '19': [],
+    '19': [Eve],
     '20': [],
     '21': ['Banana Brandon'],
     '22': [],
