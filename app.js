@@ -394,7 +394,7 @@ const BIRTHDAYS = {
     '21': [],
     '22': [],
     '23': [],
-    '24': ['Louis Tomlinson'],
+    '24': ['Louis Tomlinson and Jennifer.'],
     '25': [],
     '26': [],
     '27': [],
